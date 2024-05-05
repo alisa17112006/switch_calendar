@@ -56,7 +56,7 @@ def update_treeview():
 # Создаем основное окно приложения
 root = Tk()
 root.title("Shashlik Database Interface")
-
+root.iconbitmap("barbecue (2).ico")
 # Создаем виджеты для ввода данных
 Label(root, text="Название шашлыка:").grid(row=0, column=0)
 entry_name = Entry(root)
